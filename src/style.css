@@ -204,7 +204,7 @@ footer .social-links a:hover {
     }
         /* Smaller images */
         img.img-fluid {
-            max-width: 80%;
+            max-width: 50%;
             height: auto;
             margin: 0 auto;
             display: block;
