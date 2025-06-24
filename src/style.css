@@ -202,4 +202,46 @@ footer .social-links a:hover {
         padding: 0;
         text-align: center;
     }
+        /* Smaller images */
+        img.img-fluid {
+            max-width: 80%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+    
+        /* Smaller text */
+        .project-description p,
+        .project-description h2 {
+            font-size: 0.9rem;
+            /* Reduce size */
+            line-height: 1.4;
+        }
+    
+        /* Read More logic */
+        .read-more-content {
+            display: none;
+        }
+    
+        .read-more-toggle {
+            color: #007bff;
+            cursor: pointer;
+            font-weight: 500;
+            text-decoration: underline;
+            margin-top: -10px;
+            display: inline-block;
+        }
+    
+        .read-more-showing .read-more-content {
+            display: inline;
+        }
+    
+        .read-more-showing .read-more-toggle::after {
+            content: " Read Less";
+        }
+    
+        .read-more-toggle::after {
+            content: " Read More";
+        }
+    
 }
