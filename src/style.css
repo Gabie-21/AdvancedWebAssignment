@@ -210,7 +210,7 @@ footer .social-links a:hover {
             display: block;
         }
     
-        /* Smaller text */
+        
         .project-description p,
         .project-description h2 {
             font-size: 0.9rem;
@@ -218,7 +218,7 @@ footer .social-links a:hover {
             line-height: 1.4;
         }
     
-        /* Read More logic */
+        
         .read-more-content {
             display: none;
         }
